@@ -5,11 +5,11 @@ Go Range Store
 
 Range store provides a simple datastructure providing efficient storage of a single value to many (consecutive) keys. Inspired by wanting to write:
 
-```
-    store := make(map[uint64]interface{})
-    store[10:20] = "hello"
-    greet := store[15]
-    // Greet is "hello"
+```go
+store := make(map[uint64]interface{})
+store[10:20] = "hello"
+greet := store[15]
+// Greet is "hello"
 ```
 
 Contact: developer@tenta.io
