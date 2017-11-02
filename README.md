@@ -1,7 +1,9 @@
 Go Range Store
 ==============
 
+[![Build Status](https://travis-ci.org/tenta-browser/go-range-store.svg?branch=master)](https://travis-ci.org/tenta-browser/go-range-store/builds)
 [![GoDoc](https://godoc.org/github.com/tenta-browser/go-range-store?status.svg)](https://godoc.org/github.com/tenta-browser/go-range-store)
+[![Go Report Card](https://goreportcard.com/badge/github.com/tenta-browser/go-range-store)](https://goreportcard.com/report/github.com/tenta-browser/go-range-store)
 
 Range store provides a simple datastructure providing efficient storage of a single value to many (consecutive) keys. Inspired by wanting to write:
 
